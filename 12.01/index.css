@@ -1,0 +1,53 @@
+:root {
+  --wine-red: #C7375F;
+  --bright-red: #D42D2F;
+  --dark-green: #344D2F;
+  --light-green: #77A047;
+  --gold: #FAC57D;
+  --snow: #F0F4F7;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--dark-green);
+  background-color: var(--snow);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 2em;
+}
+
+.countdown-box {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: var(--wine-red);
+  color: var(--snow);
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  text-align: center;
+  width: 150px;
+}
+
+.countdown-display {
+    font-size: 100px;
+    margin: 0;
+}
