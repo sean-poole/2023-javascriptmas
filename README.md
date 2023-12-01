@@ -1,6 +1,6 @@
-# ❄️ JavaScriptmas 2022 ❄️ : <a href="https://scrimba.com/learn/javascriptmas" target="_blank">Visit Here</a>
+# ❄️ JavaScriptmas 2023 ❄️ : <a href="https://scrimba.com/learn/javascriptmas" target="_blank">Visit Here</a>
 
-A repository of solutions for JavaScriptmas 2022.
+A repository of solutions for JavaScriptmas 2023.
 
 
 ## ⛄️ How It's Made: 
