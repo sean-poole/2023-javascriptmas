@@ -27,6 +27,14 @@ document.getElementById('window-container').addEventListener('click', function (
       model: "gpt-3.5-turbo-1106"
     });
 
+    // const hf = new HfInference(process.env.HF_API_KEY);
+    // const textToGenerate = "Tell me a Christmas-themed dad joke.";
+
+    // const completion = await hf.textGeneration({
+    //     inputs: textToGenerate,
+    //     model: "HuggingFaceH4/zephyr-7b-beta"
+    // });
+
     const leftDoor = document.querySelector('.left-door');
     const rightDoor = document.querySelector('.right-door');
     const jokeDisplay = document.querySelector('.joke-display');
