@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 1rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0 0 1rem 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: disc;
+  width: 200px;
+}
+
