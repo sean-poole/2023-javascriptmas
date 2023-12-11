@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+:root { 
+  --white: #fff;
+  --red: #FF0002;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.flag {
+  display: grid;
+  grid-template-rows: repeat(5, 2fr);
+  grid-template-columns: repeat(5, 2fr);
+  background-color: var(--red);
+  height: 400px;
+  width: 400px;
+}
+
+.cross {
+  background-color: var(--white);
+}
+
+.cross1 {
+  grid-row: 3/4;
+  grid-column: 2/5;
+}
+
+.cross2 {
+  grid-row: 2/5;
+  grid-column: 3/4;
+}
