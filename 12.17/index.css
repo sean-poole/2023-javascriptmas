@@ -1,0 +1,37 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-word: #5134ff;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 1.4rem;
+}
+
+.container {
+  text-align: center;
+}
+
+.word::after {
+  animation: words 7s linear infinite;
+  background-color: var(--bg-word);
+  border-radius: 2px;
+  color: #FFF;
+  content: " ";
+  padding: 0.7rem;
+}
+
+@keyframes words {
+  0% { content: "small dogs" }
+  25% { content: "medium dogs" }
+  50% { content: "large dogs" }
+  75% { content: "sushi" }
+  100% { content: "small dogs" }
+}
