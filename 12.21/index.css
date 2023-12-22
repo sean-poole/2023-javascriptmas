@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --search-border: #bbb;
+  --search-focus-border: #3a71ca;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.search-label {
+  display: none;
+}
+
+.search-bar {
+  border: 2px solid var(--search-border);
+  border-radius: 5px;
+  font-size: 1.4rem;
+  padding: 0.5rem;
+  transition: all 1s ease-in-out;
+  width: 33%;
+}
+
+.search-bar:focus {
+  border-color: var(--search-focus-border);
+  width: 100%;
+}
+
+.search-bar:focus::placeholder {
+  color: transparent;
+}
