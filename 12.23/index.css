@@ -1,0 +1,44 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --toggle-switch-bg: #232428;
+  --toggle-border: #232428;
+  --toggle-bg: #fff;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: grey;
+}
+
+.toggle-input {
+  display: none;
+}
+
+.toggle-switch {
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 0.5rem;
+  height: 50px;
+  width: 100px;
+}
+
+.toggle-button {
+  background-color: black;
+  border-radius: 50px;
+  transition: transform 0.25s linear;
+  height: 50px;
+  width: 50px;
+}
+
+.toggle-input:checked ~ .toggle-switch .toggle-button {
+  transform: translateX(50px);
+}
